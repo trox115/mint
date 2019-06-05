@@ -39,14 +39,19 @@ body{
 
 /*  the form  */
 #box{
-    
     display: flex;
-    border:1px solid black;
     justify-content: center !important;
     align-items: center !important;
-    background: white;
+}
+.bef-field{
+    border-left: 200px;
+    border:1px solid black;
+    width: 240px;
+    background: white !important;
+    border-radius: 5px;
 }
 .form-group{
     text-align: center;
+    
    
 }
