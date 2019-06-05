@@ -34,7 +34,7 @@ body{
 .title{
     display: block;
     text-align: center;
-    margin-top:100px;
+    margin-top: 50px;
 }
 
 /*  the form  */
@@ -63,7 +63,7 @@ body{
     
    
 }
-widget{
+.widget{
     margin-right: 10px;
 }
 .widget input{
@@ -95,4 +95,11 @@ info{
     margin-left:30px;
     font-size:10px;
    text-align: left;
+}
+#para{
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: smaller;
+    
 }
