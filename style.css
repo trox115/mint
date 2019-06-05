@@ -31,9 +31,22 @@ body{
     font-weight: normal;
     
 }
+.title{
+    display: block;
+    text-align: center;
+    margin-top:100px;
+}
 
 /*  the form  */
 #box{
     
-
+    display: flex;
+    border:1px solid black;
+    justify-content: center !important;
+    align-items: center !important;
+    background: white;
+}
+.form-group{
+    text-align: center;
+   
 }
