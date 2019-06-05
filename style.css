@@ -63,6 +63,7 @@ body{
     color:#4C4C4C;
 }
 .bef-field h2{
+    margin-top: 20px;
     font-size: 24px;
     color:#4C4C4C;
     line-height: 1.1;
@@ -74,7 +75,7 @@ body{
    
 }
 .widget{
-    margin-right: 10px;
+    
 }
 .widget input{
     width: 85%;
@@ -114,15 +115,26 @@ info{
     
 }
 .padlock{
-    left: 300px;
+    left: 314px;
 width: 22px;
 height: 22px;
-bottom: 33px;
+bottom: 28px;
 position: relative;
 background-size: contain;
 background-repeat: no-repeat;
 background-image: url(img/padlock.png);
 }
+#bottom{
+    padding: 2px;
+    height: 50px;
+    background-color: #ECEEF1 ;
+    color: #4c4c4c;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+
+/*f-------------------footer------------------------*/
 .list li {
     display: inline;
     margin-right: 10px;
@@ -133,6 +145,7 @@ background-image: url(img/padlock.png);
     margin-top:40px;
     text-align: center;
 }
+
 footer{
     font-size: small;
     width:720px;
