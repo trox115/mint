@@ -1,5 +1,5 @@
 body{
-    background-color:#ECEEF1;
+    background-color: #ECEEF1 !important;
 }
 .header{
     margin-top:5px;
@@ -30,4 +30,10 @@ body{
     border:1px solid #4c4c4c;
     font-weight: normal;
     
+}
+
+/*  the form  */
+#box{
+    
+
 }
