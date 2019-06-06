@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Displaying and putting</title>
+    <title>Intuit Accounts - Sign Up</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,48 +13,50 @@
 <body>
     <!--Nav Bar-->
   
-        <div class="header">
+        <header>
+            <div class="sig">
             <div class="text">
-            <p>Already have a Waymo account?</p>
+            <p>Already have a Intuit account?</p>
 
             <a href="#">I forgot my User ID or Password</a>
         </div>
         <div class="signin">
         <button><i class="fa fa-lock"></i> Sign In </button>
         </div>
+    </div>
+           </header> 
        
-           </div> 
-       
-
+<main>
     
            <div class="title">
             
-            
+            <img src="img/logo.png">
         
             <div class="otherlogos">
-                    <img src="img/1.png" alt="Smiley face" height="42" width="42">
-                    <img src="img/1.png" alt="Smiley face" height="42" width="42">
-                    <img src="img/1.png" alt="Smiley face" height="42" width="42">
+                    <img src="img/logo3.png" alt="Smiley face" height="42" width="42">
+                    <img src="img/logo2.png" alt="Smiley face" height="42" width="42">
+                    <img src="img/logo1.png" alt="Smiley face" height="42" width="42">
             </div>
 
            </div>
     <!-- form-->
     <div class="form-group" id="box">
             
-       <fieldset>
+       
 
         <div class="bef-field">
-        <form action="#" method="POST">
+        
            
-            <h2>Create a Waymo account</h2>
+            <h2>Create a Intuit account</h2>
 
             <p>One account for everything, including Mint. </p>
 
 
-            
-            <div class="widget">
-                <label>Email Address:</label> 
-                <input type="email"  name="email">
+            <form action="#" method="POST">
+                    <fieldset>
+                    <div class="widget">
+                    <label>Email Address:</label> 
+                    <input type="email"  name="email">
            
 
             
@@ -64,14 +66,16 @@
            
 
             
-               <label>Password:</label> 
-               <input type="password" name="password">
-               <div class="padlock"></div>            
+                    <label>Password:</label> 
+                    <input type="password" name="password">
+                    <div class="padlock"></div>            
 
            
-                <button type="submit"><i class="fa fa-lock"></i> Create Account</button>
-
-                <div id="para">
+                    <button type="submit"><i class="fa fa-lock"></i> Create Account</button>
+                    </fieldset>
+            </form>
+                
+            <div id="para">
                 <p>By clicking Create Account, you agree to our
                     <a href="#">Terms of Service</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
                     </p>
@@ -83,14 +87,14 @@
 
                 </div>
             </div>
-            </fieldset>
+            
         </div>
             </div>
 
-        </form>
+        
     </div>
     </div>
-
+</main>
     <footer>
         <div class="list">
             <ul>
