@@ -5,7 +5,7 @@ This collaborative proyect is based on the intuit.com form, as a part of the ass
 
 
 <h1><b> Authors:</b></h1>
-António Fernandes 
+António Fernandes ---
 Gonzalo Javier Mancilla
 
 
