@@ -9,6 +9,19 @@ body{
     font-size:12px;
     line-height: 1px;
 }
+.otherlogos li{
+    display: inline;
+    margin-right: 5px;
+    
+}
+span{
+    color:grey;
+}
+
+.otherlogos ul{
+   width: 97%;
+   text-align: center;
+}
 .text p,a{
     margin-top:5px;
    color: #505050;
@@ -42,10 +55,12 @@ body{
 .otherlogos {
     margin-top:10px;
     margin-bottom:10px;
+    
 }
 
 .otherlogos img{
-    width: 340px;
+    width: 23px;
+    height: 23px;
 }
 /*  the form  */
 #box{
@@ -62,6 +77,10 @@ body{
     font-size: 14px;
     color:#4C4C4C;
 }
+.bef-field#learn{
+    font-size: 14px;
+    
+}
 .bef-field h2{
     margin-top: 20px;
     font-size: 24px;
@@ -74,9 +93,7 @@ body{
     
    
 }
-.widget{
-    
-}
+
 .widget input{
     width: 85%;
     line-height: 30px;
